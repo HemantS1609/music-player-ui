@@ -1,0 +1,17 @@
+.recent-played-container {
+    flex: 1;
+   
+    .recent-played-song {
+      border-radius: 4px;
+      background-color: #ffffff14;
+      padding: 10px 20px;
+      color: white;
+    }
+  
+    .image-box {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }

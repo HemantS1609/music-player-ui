@@ -1,0 +1,34 @@
+.sidebar{
+    width: 400px !important;
+    // width: 440px !important;
+    background: transparent !important;
+ 
+}
+
+.song-list-container{
+    overflow-y: auto !important;
+    height: 450px !important;
+}
+
+.song-box{
+    // background-color: cadetblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-box{
+    background-color: #FFFFFF14;
+}
+
+.thumbnail{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.song-list-container::-webkit-scrollbar{
+    width: 0px !important;
+    display: none !important;
+}

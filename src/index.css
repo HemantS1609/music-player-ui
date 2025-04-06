@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Basier Circle', sans-serif;
+}
+
+.app {
+  /* height: 100vh; */
+  height: 100%;
+  /* background: linear-gradient(108.18deg, #201606 2.46%, #000000 99.84%); */
+  background:linear-gradient(108.18deg, #33425E 2.46%, #000000 99.84%);
+  color: white;
+  padding: 32px;
+  display: flex;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+
+
+
+.main-section {
+  flex: 1;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.op-40{
+  opacity: 40%;
+}
+.op-100{
+  opacity: 100%;
+}

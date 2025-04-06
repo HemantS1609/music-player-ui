@@ -1,0 +1,71 @@
+[
+  {
+    "id":"1",
+    "title": "Relaxing Krishna Flute Music",
+    "thumbnail": "https://cdn.pixabay.com/audio/2025/03/28/16-07-46-195_200x200.jpg",
+    "musicUrl": "rkfm",
+    "duration": "6:06",
+    "artistName": "Alamin Music"
+  },
+  {
+    "id":"2",
+    "title": "Hare Krishna Relaxing",
+    "thumbnail": "https://cdn.pixabay.com/audio/2022/07/06/16-26-48-861_200x200.jpg",
+    "musicUrl": "hrk",
+    "duration": "2:19",
+    "artistName": "Soul Music"
+  },
+  {
+    "id":"3",
+    "title": "Hare Krishna",
+    "thumbnail": "https://cdn.pixabay.com/audio/2024/10/12/22-04-21-304_200x200.jpg",
+    "musicUrl": "hr",
+    "duration": "1:42",
+    "artistName": "Bengal"
+  },
+  {
+    "id":"4",
+    "title": "Hare Krishna Music",
+    "thumbnail": "https://cdn.pixabay.com/audio/2023/04/12/19-06-13-82_200x200.jpg",
+    "musicUrl": "hrm",
+    "duration": "2:07",
+    "artistName": "Soul Music"
+  },
+  {
+    "id":"5",
+    "title": "Hare Krishna Music 6",
+    "thumbnail": "https://cdn.pixabay.com/audio/2023/04/13/07-50-26-625_200x200.jpg",
+    "musicUrl": "hrm6",
+    "duration": "1:42",
+    "artistName": "Soul Music"
+  },
+  {
+    "id":"6",
+    "title": "Arabic love",
+    "thumbnail": "https://cdn.pixabay.com/audio/2024/11/29/10-40-33-720_200x200.jpeg",
+    "musicUrl": "abl",
+    "duration": "3:06",
+    "artistName": "Emotional Play"
+  },
+  {
+    "id":"7",
+    "title": "Flute July",
+    "thumbnail": "https://cdn.pixabay.com/audio/2023/02/04/17-06-17-346_200x200.png",
+    "musicUrl": "fj",
+    "duration": "2:26",
+    "artistName": "Mono Solo"
+  },
+  {
+    "id":"8",
+    "title": "Flute Melody",
+    "thumbnail": "https://cdn.pixabay.com/audio/2025/03/18/12-18-26-147_200x200.jpg",
+    "musicUrl": "fm",
+    "duration": "1:05",
+    "artistName": "Adinkra Studio"
+  }
+]
+
+
+
+
+

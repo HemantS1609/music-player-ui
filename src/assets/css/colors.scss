@@ -1,0 +1,26 @@
+:root {
+  --color-ffffff: #ffffff;
+  --color-201606: #201606;
+  --color-000000: #000000;
+  --color-33425E: #33425E;
+  --color-FFFFFF14: #FFFFFF14;
+
+}
+
+$colors: (
+  "ffff": #ffffff,
+  "1606": #201606,
+  "0000": #000000,
+  "425e": #33425E,
+  "ff14": #FFFFFF14,
+);
+
+@each $name, $hex in $colors {
+  .color-#{$name} {
+    color: var(--color-#{$name}, $hex) !important;
+  }
+
+  .bg-color-#{$name} {
+    background-color: var(--color-#{$name}, $hex) !important;
+  }
+}

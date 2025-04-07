@@ -5,7 +5,7 @@ import "./LeftNavigation.scss";
 
 const LeftNavigation = ({ setActiveTab, activeTab }) => {
   return (
-    <nav className="left-navigation">
+    <div className="left-navigation">
       <div className="logo">
         <img src={Logo} alt="logo" />
       </div>
@@ -39,7 +39,7 @@ const LeftNavigation = ({ setActiveTab, activeTab }) => {
       <div className="user-profile">
         <img src={UserProfile} alt="user-profile" />
       </div>
-    </nav>
+    </div>
   );
 };
 

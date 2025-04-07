@@ -22,7 +22,7 @@ import {
 } from "react-icons/fa";
 import "./Player.scss";
 
-const Player = ({ currentSong, songList, handleNext, handlePrev }) => {
+const Player = ({ currentSong, songList, handleNext, handlePrev, setShow }) => {
   const progressBarRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
@@ -116,8 +116,13 @@ const Player = ({ currentSong, songList, handleNext, handlePrev }) => {
 
   return (
     <div className="player-container">
-      <h1 className="text-32-700 text-start">{currentSong.title}</h1>
-      <span className="text-16-400 text-start">{currentSong.artistName}</span>
+      <div className="h-30 hamburger pointer">
+        <i className="bi bi-list" onClick={() => setShow(true)} />
+      </div>
+      <h1 className="text-start song-title">{currentSong.title}</h1>
+      <span className="artist-text text-16-400 text-start">
+        {currentSong.artistName}
+      </span>
       <div className="cover-image-container">
         <img
           src={currentSong.thumbnail}

@@ -8,6 +8,7 @@ import RecentPlayed from "./components/layout/RecentPlayed/RecentPlayed";
 
 function App() {
   const [activeTab, setActiveTab] = useState("For You");
+  const [show, setShow] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [searchQuery, setSearchQuery] = useState("");
   const [recentlyPlayed, setRecentlyPlayed] = useState(
@@ -75,6 +76,8 @@ function App() {
               currentIndex={currentIndex}
               searchQuery={searchQuery}
               setSearchQuery={setSearchQuery}
+              setShow={setShow}
+              show={show}
             />
             {filteredSongs?.length > 0 && (
               <Player
@@ -82,6 +85,7 @@ function App() {
                 handleNext={handleNext}
                 handlePrev={handlePrev}
                 songList={SongList}
+                setShow={setShow}
               />
             )}
           </div>

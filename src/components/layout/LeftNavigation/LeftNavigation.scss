@@ -1,12 +1,13 @@
 .left-navigation {
   //closed this div
     width: 150px;
+    height: 100%;
     /* background: rgba(0, 0, 0, 0.9); */
     // height: 100%;
     display: flex;
     flex-direction: column;
     // align-items: center;
-    padding-bottom: 24px;
+    // padding-bottom: 24px;
     color: white;
     margin-right: 70px;
     // margin-right: 96px;
@@ -26,3 +27,10 @@
     align-items: end;
     height: 100%;
   }
+
+  @media (max-width:1200px) {
+    .left-navigation {
+        display: none !important;
+    }
+    
+}

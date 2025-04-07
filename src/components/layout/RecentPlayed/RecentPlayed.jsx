@@ -2,8 +2,6 @@ import React from "react";
 import "./RecentPlayed.scss";
 
 const RecentPlayed = ({ recentlyPlayed }) => {
-  console.log("recentlyPlayed", recentlyPlayed);
-
   return (
     <div className="recent-played-container">
       <h1 className="text-32-700 lh-36 cmb-24">Recently Played</h1>

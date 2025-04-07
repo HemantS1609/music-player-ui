@@ -15,17 +15,6 @@ const Sidebar = ({
 }) => {
   return (
     <>
-      {/* <div className="d-flex h-30">
-        <button
-          class="btn btn-primary"
-          type="button"
-          onClick={() => setShow(true)}
-        >
-          X
-        </button>
-      </div> */}
-
-      {/* canvas */}
       <Offcanvas show={show} onHide={() => setShow(false)}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="text-32-700 cmb-24">
@@ -79,7 +68,6 @@ const Sidebar = ({
         </Offcanvas.Body>
       </Offcanvas>
 
-      {/* /// */}
       <div className="sidebar">
         <h1 className="text-32-700 lh-36 cmb-24">{activeTab}</h1>
         <SearchInput

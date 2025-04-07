@@ -27,27 +27,21 @@ function App() {
     );
   };
 
-  // Function to update Recently Played Songs
   const updateRecentlyPlayed = (song) => {
     let recentSongs = JSON.parse(sessionStorage.getItem("recentSongs")) || [];
 
-    // Remove duplicate if song already exists
     recentSongs = recentSongs.filter((s) => s.id !== song.id);
 
-    // Add new song at the beginning
     recentSongs.unshift(song);
 
-    // Keep only last 10 songs
     if (recentSongs.length > 10) {
       recentSongs = recentSongs.slice(0, 10);
     }
 
-    // Update state and sessionStorage
     setRecentlyPlayed(recentSongs);
     sessionStorage.setItem("recentSongs", JSON.stringify(recentSongs));
   };
 
-  // When currentSong changes, update Recently Played
   useEffect(() => {
     if (currentSong) {
       updateRecentlyPlayed(currentSong);
